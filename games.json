@@ -1,0 +1,21 @@
+[
+    {
+      "id": "rdr2",
+      "name": "Red Dead Redemption 2",
+      "image": "https://gaming-cdn.com/images/news/articles/12517/cover/red-dead-redemption-2-pourrait-arriver-sur-switch-2-ps5-et-xbox-series-cette-annee-cover682732d889ebb.jpg",
+      "description": "An epic tale of life in America’s unforgiving heartland."
+    },
+    {
+      "id": "eldenring",
+      "name": "Elden Ring",
+      "image": "https://images.frandroid.com/wp-content/uploads/2021/12/elden-ring.jpg",
+      "description": "A fantasy action-RPG from the creators of Dark Souls."
+    },
+    {
+      "id": "dark-souls-1",
+      "name": "Dark Souls 1",
+      "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_900/ncom/software/switch/70010000008122/453d17f26995df6bd67d698c90ba2fd27157a61875e1a9730545da23474c6aaf",
+      "description": "Prepare to die in the brutal world of Lordran."
+    }
+  ]
+  

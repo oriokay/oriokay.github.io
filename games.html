@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ready2Game - Games</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="index.html">Ready2Game</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="patches.html">Patches</a>
+    <a href="about.html">About Us</a>
+  </div>
+  <form action="games.html" method="get" style="margin-left: 20px;">
+    <input type="text" name="search" id="gameSearch" placeholder="Search..." />
+  </form>
+  
+</nav>
+<!-- Icons -->
+<div class="page active">
+  <h2>Games</h2>
+  <div id="gameGrid" class="game-grid" style="margin-top: 30px;">
+    <a href="game.html?id=rdr2" class="game-card" data-title="red dead redemption 2">
+      <img src="https://gaming-cdn.com/images/news/articles/12517/cover/red-dead-redemption-2-pourrait-arriver-sur-switch-2-ps5-et-xbox-series-cette-annee-cover682732d889ebb.jpg" alt="RDR2">
+      <h3>Red Dead Redemption 2</h3>
+    </a>
+
+    <a href="game.html?id=eldenring.html" class="game-card" data-title="elden ring">
+      <img src="https://images.frandroid.com/wp-content/uploads/2021/12/elden-ring.jpg" alt="Elden Ring">
+      <h3>Elden Ring</h3>
+    </a>
+    
+    <a href="game.html?id=darksoules1.html" class="game-card">
+      <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_900/ncom/software/switch/70010000008122/453d17f26995df6bd67d698c90ba2fd27157a61875e1a9730545da23474c6aaf">
+      <h3>dark soules 1</h3>
+    </a>
+    
+    <a href="game.html?id=liesofp.html" class="game-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWIia6yx4XM3nBAe_ssASpNiTTnKgVStt4A-saZYxIBKXEN0p60G88jHEpYKeDtPJGPO97GsuHsXIPGVROztSSZPJFFCyVzCaXZXbfBbYwOQ">
+      <h3>Lies of P</h3>
+    </a>
+
+    <a href="game.html?id=gtav.html" class="game-card">
+      <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/gta-v-bigjpg-e94b8d1280wjpg-e14d62_160w.jpg?resize=780%2C470&ssl=1" alt="GTA V">
+      <h3>Grand Theft Auto V</h3>
+    </a>
+
+    <a href="game.html?id=dockdomer.html" class="game-card">
+      <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/gta-v-bigjpg-e94b8d1280wjpg-e14d62_160w.jpg?resize=780%2C470&ssl=1" alt="GTA V">
+      <h3>DockDomer</h3>
+    </a>
+
+    <!-- Add more game cards here -->
+
+  </div>
+</div>
+<script>
+  function filterGamesFromQuery() {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get("search")?.toLowerCase();
+    const cards = document.querySelectorAll("#gameGrid .game-card");
+
+    if (query) {
+      let matchCount = 0;
+      cards.forEach(card => {
+        const title = card.querySelector("h3").textContent.toLowerCase();
+        if (title.includes(query)) {
+          card.style.display = "block";
+          matchCount++;
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      // If no results
+      if (matchCount === 0) {
+        document.getElementById("gameGrid").innerHTML = "<p>No games found for: <strong>" + query + "</strong></p>";
+      }
+    }
+  }
+
+  window.onload = filterGamesFromQuery;
+</script>
+
+
+</body>
+</html>

@@ -3,19 +3,88 @@
       "id": "rdr2",
       "name": "Red Dead Redemption 2",
       "image": "https://gaming-cdn.com/images/news/articles/12517/cover/red-dead-redemption-2-pourrait-arriver-sur-switch-2-ps5-et-xbox-series-cette-annee-cover682732d889ebb.jpg",
-      "description": "An epic tale of life in America’s unforgiving heartland."
+      "description": "{
+  "title": "Red Dead Redemption 2",
+  "cover_image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+  "description": "Red Dead Redemption 2 is an epic tale of life in America at the dawn of the modern age. Developed by Rockstar Games, the game is set in 1899 and follows the story of Arthur Morgan, a member of the Van der Linde gang, as he navigates the decline of the Wild West. The game combines immersive storytelling, a massive open world, and stunning visuals that redefine the action-adventure genre.",
+  "features": [
+    "Massive open world with dynamic weather and ecosystems",
+    "Deep, emotional story with complex characters",
+    "Realistic horse mechanics and travel system",
+    "Engaging side missions and random world events",
+    "Multiplayer experience in Red Dead Online"
+  ],
+  "system_requirements": {
+    "OS": "Windows 7 - SP1 (6.1.7601)",
+    "Processor": "Intel Core i5-2500K / AMD FX-6300",
+    "Memory": "8 GB RAM",
+    "Graphics": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+    "Storage": "150 GB available space"
+  },
+  "developer": "Rockstar Games",
+  "publisher": "Rockstar Games",
+  "release_date": "October 26, 2018 (Consoles) / November 5, 2019 (PC)",
+  "genre": ["Action", "Adventure", "Open World", "Western"]
+}
+"
     },
     {
       "id": "eldenring",
       "name": "Elden Ring",
       "image": "https://images.frandroid.com/wp-content/uploads/2021/12/elden-ring.jpg",
-      "description": "A fantasy action-RPG from the creators of Dark Souls."
+      "description": "{
+  "title": "Elden Ring",
+  "cover_image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+  "description": "Elden Ring is an open-world action RPG developed by FromSoftware and published by Bandai Namco Entertainment. Set in the dark fantasy world of the Lands Between, the game was created in collaboration with fantasy novelist George R. R. Martin. Players take on the role of a Tarnished warrior exploring vast landscapes, uncovering deep lore, and battling powerful foes in a non-linear world.",
+  "features": [
+    "Vast open world with seamless exploration",
+    "Dynamic day/night cycle and weather system",
+    "Challenging combat inspired by Soulsborne games",
+    "Co-op and PvP multiplayer functionality",
+    "Deep lore created with input from George R. R. Martin"
+  ],
+  "system_requirements": {
+    "OS": "Windows 10",
+    "Processor": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+    "Memory": "12 GB RAM",
+    "Graphics": "Nvidia GeForce GTX 1060 3 GB / AMD Radeon RX 580 4 GB",
+    "Storage": "60 GB available space"
+  },
+  "developer": "FromSoftware",
+  "publisher": "Bandai Namco Entertainment",
+  "release_date": "February 25, 2022",
+  "genre": ["Action RPG", "Open World", "Fantasy", "Souls-like"]
+}
+"
     },
     {
       "id": "darksouls1",
       "name": "Dark Souls 1",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_900/ncom/software/switch/70010000008122/453d17f26995df6bd67d698c90ba2fd27157a61875e1a9730545da23474c6aaf",
-      "description": "Prepare to die in the brutal world of Lordran."
+      "description": "{
+  "title": "Dark Souls",
+  "cover_image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Dark_Souls_Cover_Art.jpg",
+  "description": "Dark Souls is a dark fantasy action RPG developed by FromSoftware and published by Namco Bandai Games. Known for its challenging difficulty, interconnected world, and deep lore, the game follows an undead warrior exploring Lordran — a kingdom cursed by the Darksign. Players must fight terrifying enemies, discover secrets, and master a unique combat system to link the fire or plunge the world into darkness.",
+  "features": [
+    "Hardcore combat with stamina-based mechanics",
+    "Tightly connected open-world level design",
+    "Over 100 unique enemy types and bosses",
+    "Multiplayer with summoning and invading systems",
+    "Highly customizable builds and weapons"
+  ],
+  "system_requirements": {
+    "OS": "Windows XP, Vista, 7, 8, 10",
+    "Processor": "Intel Core 2 Duo E6850 / AMD Phenom II X2",
+    "Memory": "2 GB RAM",
+    "Graphics": "NVIDIA GeForce 9800 GTX+ / ATI Radeon HD 4870",
+    "Storage": "4 GB available space"
+  },
+  "developer": "FromSoftware",
+  "publisher": "Namco Bandai Games",
+  "release_date": "September 22, 2011 (Japan) / October 4, 2011 (Worldwide)",
+  "genre": ["Action RPG", "Dark Fantasy", "Souls-like"]
+}
+"
     }
   ]
   

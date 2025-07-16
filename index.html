@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TJ7JNWJP');</script>
-<!-- End Google Tag Manager -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Oriokay - Home</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Oriokay is your go-to source for the latest game releases, patches, reviews, and news. Stay ahead in the gaming world.">
+  <script>
+    (function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TJ7JNWJP');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Oriokay is your go-to source for the latest game releases, patches, reviews, and news. Stay ahead in the gaming world.">
   <meta name="keywords" content="gaming, video games, game reviews, game news, patches, Ready2Game">
   <meta name="author" content="oriokay">
   <title>Oriokay – Gaming News & Reviews</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ7JNWJP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ7JNWJP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <nav>
     <a class="brand" href="index.html">Oriokay</a>
     <div class="nav-links">
@@ -33,38 +35,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="about.html">About Us</a>
     </div>
     <form id="navSearchForm" style="margin-left: 20px;">
-      <input type="text" name="search" id="navSearchInput" placeholder="Search for a game..." />
-    </form>    
+      <input type="text" id="navSearchInput" placeholder="Search for a game...">
+    </form>
   </nav>
-  
 
-<div class="page active">
-  <h2>Welcome!</h2>
-  <p>Stay updated with the hottest game releases and patch updates.</p>
+  <div class="page active">
+    <h2>Welcome!</h2>
+    <p>Stay updated with the hottest game releases and patch updates.</p>
 
-  <div id="slider">
-    <a href="https://rockstargames.com/reddeadredemption2" class="slide active">
-      <img src="https://gaming-cdn.com/images/news/articles/12517/cover/red-dead-redemption-2-pourrait-arriver-sur-switch-2-ps5-et-xbox-series-cette-annee-cover682732d889ebb.jpg" alt="RDR2" />
-    </a>
-    <a href="https://eldenring.com" class="slide">
-      <img src="https://images.frandroid.com/wp-content/uploads/2021/12/elden-ring.jpg" alt="Elden Ring" />
-    </a>
-    <a href="https://gepig.com/game/red-dead-redemption-2" class="slide">
-      <img src="https://gepig.com/game_cover_460w/5260.jpg" alt="Game Cover" />
-    </a>
+    <div id="slider">
+      <a href="https://rockstargames.com/reddeadredemption2" class="slide active">
+        <img src="https://gaming-cdn.com/images/news/articles/12517/cover/red-dead-redemption-2-pourrait-arriver-sur-switch-2-ps5-et-xbox-series-cette-annee-cover682732d889ebb.jpg" alt="RDR2">
+      </a>
+      <a href="https://eldenring.com" class="slide">
+        <img src="https://images.frandroid.com/wp-content/uploads/2021/12/elden-ring.jpg" alt="Elden Ring">
+      </a>
+      <a href="https://gepig.com/game/red-dead-redemption-2" class="slide">
+        <img src="https://gepig.com/game_cover_460w/5260.jpg" alt="Game Cover">
+      </a>
+    </div>
   </div>
-</div>
-<script>
-  document.getElementById("navSearchForm").addEventListener("submit", function(e) {
-    e.preventDefault();
-    const query = document.getElementById("navSearchInput").value.trim();
-    if (query.length > 0) {
-      const encoded = encodeURIComponent(query);
-      window.location.href = `games.html?search=${encoded}`;
-    }
-  });
-</script>
 
-<script src="slider.js"></script>
+  <script>
+    document.getElementById("navSearchForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const query = document.getElementById("navSearchInput").value.trim();
+      if (query) {
+        window.location.href = `games.html?search=${encodeURIComponent(query)}`;
+      }
+    });
+  </script>
+
+  <script src="slider.js"></script>
 </body>
 </html>

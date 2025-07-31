@@ -5,6 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Oriokay - Games</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Simple Image Slider Styles */
+    .slider {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      33% { transform: translateX(0%); }
+      36% { transform: translateX(-100%); }
+      66% { transform: translateX(-100%); }
+      69% { transform: translateX(-200%); }
+      99% { transform: translateX(-200%); }
+      100% { transform: translateX(0%); }
+    }
+  </style>
 </head>
 <body>
 
@@ -20,7 +53,18 @@
     <input type="text" name="search" id="navSearchInput" placeholder="Search for a game..." />
   </form>  
 </nav>
+
 <h2>Latest News</h2>
+
+<!-- Image Slider -->
+<div class="slider">
+  <div class="slides">
+    <img src="images/rdr2.jpg" alt="best games of 2025" herf = "" / >
+    <img src="images/eldenring.jpg" alt="the best games for lowend pc " herf = "" />
+    <img src="images/cyberpunk.jpg" alt="best Horror games" />
+  </div>
+</div>
+
 <ul>
   <li>RDR2 v1.31 – Graphics Boost & Bug Fixes</li>
   <li>Elden Ring v1.10 – New Boss AI Improvements</li>
@@ -29,3 +73,4 @@
 
 </body>
 </html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WUCHANG: Fallen Feathers - Game Review</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WUCHANG: Fallen Feathers</h1>
+    <p>Game Review | 2025</p>
+  </header>
+
+  <div class="container">
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/2139460/capsule_616x353.jpg" alt="Wuchang Fallen Feathers Cover">
+
+    <h2>Overview</h2>
+    <p><strong>WUCHANG: Fallen Feathers</strong> is an action-adventure RPG set in the final years of the Ming Dynasty, blending traditional Chinese folklore with rich combat mechanics and an eerie, atmospheric world. The title is developed by Leenzee Games and has already generated buzz for its aesthetic fidelity and Souls-like gameplay design.</p>
+
+    <h2>Visuals and Art Direction</h2>
+    <p>The game excels in delivering a visually striking world. From mist-covered forests to decaying temples, each environment is carefully crafted to evoke a sense of ancient dread and spiritual corruption. The detailed character models and creature designs reflect a deep understanding of traditional Chinese myths and gothic horror.</p>
+
+    <h2>Combat and Gameplay</h2>
+    <p>The combat system in WUCHANG is heavily inspired by the Soulsborne genre. Players must master dodging, blocking, and timing their attacks. The weapon variety and skill progression offer strategic depth, while boss encounters require careful observation and patience. It’s punishing but fair, offering a sense of accomplishment with every victory.</p>
+
+    <h2>Story and Atmosphere</h2>
+    <p>The narrative centers around Wuchang, a warrior afflicted by a mysterious feathered disease. The story unfolds in a non-linear fashion, encouraging players to piece together lore through exploration, dialogue, and item descriptions. The atmosphere is deeply immersive, with ambient soundscapes and haunting musical cues enhancing the experience.</p>
+
+    <h2>Conclusion</h2>
+    <p><strong>WUCHANG: Fallen Feathers</strong> is shaping up to be one of the most promising entries in the action RPG genre. With its unique setting, challenging gameplay, and evocative world-building, it appeals to fans of titles like Bloodborne and Sekiro while carving out its own identity.</p>
+
+    <p><em>Written by:</em> <strong>Omar B. - Game Reviewer & Writer</strong><br>
+    <em>Published:</em> August 2025</p>
+  </div>
+
+  <footer>
+    &copy; 2025 GameScope Reviews | All rights reserved
+  </footer>
+
+</body>
+</html>
